@@ -15,6 +15,6 @@ type Place struct {
 	TelCode int    `db:"telcode"`
 }
 
-func Init() {
+func init() {
 	fmt.Println("正确载进domain")
 }
